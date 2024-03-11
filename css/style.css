@@ -17,7 +17,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #828282;
-  background: rgba(22,9,87);
+  background: #fff;
 }
 
 #page {
@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 ::-webkit-selection {
-  color: #fff;
+  color: #f10808;
   background: #646464;
 }
 
