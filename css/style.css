@@ -5,7 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
-@font-face { font-family: Whisper-Regular; src: url('../fonts/Whisper-Regular.ttf'); } 
+@font-face { font-family: Amsterdam; src: url('../fonts/AmsterdamOne.ttf'); } 
 /* =======================================================
 *
 * 	Template Style 
@@ -19,21 +19,6 @@ body {
   color: #828282;
   background: #fff;
 }
-
-/* Default styles for the SikhiToTheMax widget */
-.sttm-widget-container {
-    width: 100%; /* Set width to 100% by default */
-    max-width: 1000px; /* Maximum width for larger screens */
-    margin: 0 auto; /* Center the widget */
-}
-
-/* Media query for smaller screens (e.g., mobile devices) */
-@media (max-width: 767px) {
-    .sttm-widget-container {
-        max-width: 90%; /* Adjust maximum width for smaller screens */
-    }
-}
-
 
 #page {
   position: relative;
@@ -86,7 +71,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 ::-webkit-selection {
-  color: #f10808;
+  color: #fff;
   background: #646464;
 }
 
@@ -326,17 +311,12 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(234, 206, 200, 0.5);
+  background: rgba(0, 0, 0, 0.5);
 }
 .fh5co-cover > .fh5co-container {
   position: relative;
   z-index: 10;
 }
-
-#fh5co-event .container-fluid {
-    text-align: center; /* Center the text for all elements within the container */
-}
-
 @media screen and (max-width: 768px) {
   .fh5co-cover {
     height: 900px;
@@ -377,7 +357,6 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-counter,
 #fh5co-event {
-  border : none;
   height: 850px;
   float: left;
 }
@@ -425,7 +404,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .event-wrap,
 #fh5co-event .event-wrap {
-  border: none;
+  border: 2px solid rgba(0, 0, 0, 0.5);
   padding: 30px;
   width: 100%;
   float: left;
@@ -1808,13 +1787,6 @@ form label {
 
 .row-pb-sm {
   padding-bottom: 2em !important;
-}
-
-.fh5co-event .row > div {
-    margin: 0 auto; /* Center content of each column within the row */
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* Center content vertically */
 }
 
 .fh5co-loader {
