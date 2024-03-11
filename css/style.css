@@ -20,6 +20,21 @@ body {
   background: #fff;
 }
 
+/* Default styles for the SikhiToTheMax widget */
+.sttm-widget-container {
+    width: 100%; /* Set width to 100% by default */
+    max-width: 1000px; /* Maximum width for larger screens */
+    margin: 0 auto; /* Center the widget */
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 767px) {
+    .sttm-widget-container {
+        max-width: 90%; /* Adjust maximum width for smaller screens */
+    }
+}
+
+
 #page {
   position: relative;
   overflow-x: hidden;
