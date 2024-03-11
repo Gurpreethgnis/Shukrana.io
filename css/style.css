@@ -5,7 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
-@font-face { font-family: Amsterdam; src: url('../fonts/AmsterdamOne.ttf'); } 
+@font-face { font-family: Whisper; src: url('../fonts/Whisper-Regular.ttf'); } 
 /* =======================================================
 *
 * 	Template Style 
@@ -17,7 +17,7 @@ body {
   font-size: 16px;
   line-height: 1.7;
   color: #828282;
-  background: #fff;
+  background: rgba(22,9,87);
 }
 
 #page {
@@ -311,7 +311,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 0;
   left: 0;
   right: 0;
-  background: rgba(245, 244, 240, 0.5);
+  background: rgba(234, 206, 200, 0.5);
 }
 .fh5co-cover > .fh5co-container {
   position: relative;
