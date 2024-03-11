@@ -317,6 +317,11 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   z-index: 10;
 }
+
+#fh5co-event .container-fluid {
+    text-align: center; /* Center the text for all elements within the container */
+}
+
 @media screen and (max-width: 768px) {
   .fh5co-cover {
     height: 900px;
@@ -357,6 +362,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-counter,
 #fh5co-event {
+  border : none;
   height: 850px;
   float: left;
 }
@@ -404,7 +410,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .event-wrap,
 #fh5co-event .event-wrap {
-  border: 2px solid rgba(0, 0, 0, 0.5);
+  border: none;
   padding: 30px;
   width: 100%;
   float: left;
@@ -1787,6 +1793,13 @@ form label {
 
 .row-pb-sm {
   padding-bottom: 2em !important;
+}
+
+.fh5co-event .row > div {
+    margin: 0 auto; /* Center content of each column within the row */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content vertically */
 }
 
 .fh5co-loader {
