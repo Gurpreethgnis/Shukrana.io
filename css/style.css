@@ -390,6 +390,11 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   background: rgba(0, 0, 0, 0.04);
 }
+.container.align-items-center {
+  width: 100%; /* Set container width to 100% */
+  max-width: 1200px; /* Optionally, set a maximum width for the container */
+  margin: 0 auto; /* Center align the container within the viewport */
+}
 
 .center {
   display: block;
